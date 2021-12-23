@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.net.InetAddress;
 
 @RestController
+@RequestMapping("/demo")
 public class K8SController {
 
 
